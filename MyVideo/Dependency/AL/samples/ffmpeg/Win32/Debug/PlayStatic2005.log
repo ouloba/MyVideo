@@ -1,0 +1,83 @@
+﻿Build started 2016/4/9 12:36:39.
+     1>Project "H:\Demo\ffmpeg\MyVideo\Dependency\AL\samples\ffmpeg\Win32\PlayStatic2005.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\PlayStatic.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Source /I..\..\..\include /I..\..\Framework\Win32 /I..\..\..\..\ffmpeg\include /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Framework\Win32\aldlist.cpp ..\..\Framework\Win32\CWaves.cpp ..\..\Framework\Win32\Framework.cpp ..\..\Framework\Win32\LoadOAL.cpp stdafx.cpp
+         Skipping... (no relevant changes detected)
+         stdafx.cpp
+         LoadOAL.cpp
+         Framework.cpp
+         CWaves.cpp
+         aldlist.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Source /I..\..\..\include /I..\..\Framework\Win32 /I..\..\..\..\ffmpeg\include /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Source\ffmpeg.c
+         ffmpeg.c
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\stdint.h(158): warning C4005: 'SIZE_MAX' : macro redefinition
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\limits.h(81) : see previous definition of 'SIZE_MAX'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\stdint.h(197): warning C4005: 'INT64_C' : macro redefinition
+                 h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(31) : see previous definition of 'INT64_C'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\stdint.h(198): warning C4005: 'UINT64_C' : macro redefinition
+                 h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(32) : see previous definition of 'UINT64_C'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\inttypes.h(260): error C2054: expected '(' to follow '__inline__'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\inttypes.h(261): error C2082: redefinition of formal parameter 'imaxabs'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\inttypes.h(261): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(78): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(79): error C2085: 'av_log2_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(79): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(94): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(95): error C2085: 'av_log2_16bit_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(95): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(121): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(122): error C2085: 'av_clip_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(122): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(133): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(134): error C2085: 'av_clip_uint8_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(134): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(144): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(145): error C2085: 'av_clip_int8_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(145): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(155): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(156): error C2085: 'av_clip_uint16_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(156): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(166): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(167): error C2085: 'av_clip_int16_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(167): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(177): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(178): error C2085: 'av_clipl_int32_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(178): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(189): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(190): error C2085: 'av_clip_uintp2_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(190): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(202): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(203): error C2085: 'av_clipf_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(203): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(213): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(214): error C2085: 'av_ceil_log2_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(214): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(223): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(224): error C2085: 'av_popcount_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(224): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(237): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(238): error C2085: 'av_popcount64_c' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(238): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\mem.h(168): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\mem.h(169): error C2085: 'av_size_mult' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\mem.h(169): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\rational.h(55): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\rational.h(55): error C2085: 'av_cmp_q' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\rational.h(55): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\rational.h(69): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\rational.h(69): error C2085: 'av_q2d' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\rational.h(69): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\avutil.h(338): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\avutil.h(339): error C2085: 'av_x_if_null' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\avutil.h(339): error C2143: syntax error : missing ';' before '{'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavformat\avio.h(222): error C2054: expected '(' to follow 'inline'
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavformat\avio.h(223): error C2085: 'avio_tell' : not in formal parameter list
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavformat\avio.h(223): error C2143: syntax error : missing ';' before '{'
+     1>Done Building Project "H:\Demo\ffmpeg\MyVideo\Dependency\AL\samples\ffmpeg\Win32\PlayStatic2005.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.37

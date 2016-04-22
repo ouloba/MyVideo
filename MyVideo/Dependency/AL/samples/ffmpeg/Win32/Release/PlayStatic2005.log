@@ -1,0 +1,32 @@
+﻿Build started 2016/4/11 12:12:04.
+     1>Project "H:\Demo\ffmpeg\MyVideo\Dependency\AL\samples\ffmpeg\Win32\PlayStatic2005.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\PlayStatic.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\Source /I..\..\..\include /I..\..\Framework\Win32 /I..\..\..\..\ffmpeg\include /Zi /W3 /WX- /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Source\ffmpeg.cpp
+         Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /I..\Source /I..\..\..\include /I..\..\Framework\Win32 /I..\..\..\..\ffmpeg\include /Zi /W3 /WX- /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Source\ffmpeg.cpp
+         
+         ffmpeg.cpp
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(180): warning C4244: 'return' : conversion from 'int64_t' to 'int32_t', possible loss of data
+     1>h:\demo\ffmpeg\myvideo\dependency\ffmpeg\include\libavutil\common.h(239): warning C4244: 'argument' : conversion from 'uint64_t' to 'uint32_t', possible loss of data
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(H:\Demo\ffmpeg\MyVideo\Dependency\AL\samples\ffmpeg\Win32\Release\PlayStatic.exe) does not match the Linker's OutputFile property value (H:\Demo\ffmpeg\MyVideo\Dependency\AL\samples\ffmpeg\Win32\Release\PlayStaticWin32.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(PlayStatic) does not match the Linker's OutputFile property value (PlayStaticWin32). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\PlayStaticWin32.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../ffmpeg/lib winmm.lib ..\..\..\libs\Win32\OpenAL32.lib swscale.lib avfilter.lib swresample.lib avcodec.lib avutil.lib avformat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Release\PlayStatic.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\PlayStatic.lib" /MACHINE:X86 /SAFESEH Release\aldlist.obj
+         Release\CWaves.obj
+         Release\Framework.obj
+         Release\LoadOAL.obj
+         Release\ffmpeg.obj
+         Release\stdafx.obj
+         PlayStatic2005.vcxproj -> H:\Demo\ffmpeg\MyVideo\Dependency\AL\samples\ffmpeg\Win32\Release\PlayStatic.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\PlayStatic.tlog\unsuccessfulbuild".
+         Touching "Release\PlayStatic.tlog\PlayStatic.lastbuildstate".
+     1>Done Building Project "H:\Demo\ffmpeg\MyVideo\Dependency\AL\samples\ffmpeg\Win32\PlayStatic2005.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92

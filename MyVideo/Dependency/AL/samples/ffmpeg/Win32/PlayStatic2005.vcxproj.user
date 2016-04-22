@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>battle.avi</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>H:\Demo\ffmpeg\MyVideo\Dependency\AL\samples\ffmpeg\Win32\Release</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>H:\Demo\ffmpeg\MyVideo\Dependency\AL\samples\ffmpeg\Win32\Release\PlayStaticWin32.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+</Project>

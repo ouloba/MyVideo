@@ -1,0 +1,43 @@
+﻿Build started 2016/4/22 13:23:17.
+     1>Project "H:\Demo\ffmpeg\MyVideo\MyVideo\MyVideo.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MyVideo.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../Dependency/ffmpeg/include /I../Dependency/lae/include /I../Dependency/AL /Zi /nologo /W3 /WX- /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D __STDC_CONSTANT_MACROS /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\MyVideo.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyVideo.cpp
+         MyVideo.cpp
+     1>MyVideo.cpp(372): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>MyVideo.cpp(378): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(854) : see declaration of '_splitpath'
+     1>MyVideo.cpp(379): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>MyVideo.cpp(433): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>MyVideo.cpp(434): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>MyVideo.cpp(476): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>MyVideo.cpp(477): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(118) : see declaration of 'strcat'
+     1>MyVideo.cpp(491): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>MyVideo.cpp(492): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Demo\ffmpeg\MyVideo\Release\MyVideo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../Dependency/ffmpeg/lib /LIBPATH:../Dependency/lae /LIBPATH:../Dependency/AL/libs/Win32 LXZCore_share.lib swscale.lib avfilter.lib swresample.lib avcodec.lib avutil.lib avformat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\Demo\ffmpeg\MyVideo\Release\MyVideo.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Demo\ffmpeg\MyVideo\Release\MyVideo.lib" /MACHINE:X86 /SAFESEH:NO Release\MyVideo.res
+         Release\cmdutils.obj
+         Release\ffplay.obj
+         Release\MyVideo.obj
+         Release\stdafx.obj
+     1>LINK : warning C4727: PCH named h:\demo\ffmpeg\myvideo\myvideo\release\myvideo.pch with same timestamp found in H:\Demo\ffmpeg\MyVideo\MyVideo\Release\stdafx.obj and H:\Demo\ffmpeg\MyVideo\MyVideo\Release\cmdutils.obj.  Using first PCH.
+         Generating code
+         Finished generating code
+         MyVideo.vcxproj -> H:\Demo\ffmpeg\MyVideo\Release\MyVideo.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\MyVideo.tlog\unsuccessfulbuild".
+         Touching "Release\MyVideo.tlog\MyVideo.lastbuildstate".
+     1>Done Building Project "H:\Demo\ffmpeg\MyVideo\MyVideo\MyVideo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13
