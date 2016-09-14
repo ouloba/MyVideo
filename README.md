@@ -1,4 +1,4 @@
-1¡¢Lae½çÃæÓëc++½»»¥
+1ã€Laeç•Œé¢ä¸c++äº¤äº’
 	c++
 	LXZSystem_RegisterAPI("Play", ccPlay);
 	LXZSystem_RegisterAPI("Pause", ccPause);
@@ -15,11 +15,11 @@
 	LXZAPI_CallSystemAPI("toggle_fullscreen", "", nil);
 	
 	
-	2¡¢LaeÏÂÔØÎ»ÖÃ
-	http://download.csdn.net/detail/ouloba_cs/9390870
+	2ã€Laeä¸‹è½½ä½ç½®
+	ä¸‹è½½é“¾æ¥:http://pan.baidu.com/s/1bNisxw
 	
-	3¡¢ÓÃLae¿ÉÒÔËù¼û¼´ËùµÃĞŞ¸Ä²¥·ÅÆ÷µÄ½çÃæ
-	´ò¿ªffmpeg.ui
+	3ã€ç”¨Laeå¯ä»¥æ‰€è§å³æ‰€å¾—ä¿®æ”¹æ’­æ”¾å™¨çš„ç•Œé¢
+	æ‰“å¼€ffmpeg.ui
 	
-	4¡¢ÈçºÎÊ¹ÓÃlae?
-	¿É¿´ÊÓÆµ	http://www.tudou.com/programs/view/AaqZ81jIt-k
+	4ã€å¦‚ä½•ä½¿ç”¨lae?
+	å¯çœ‹è§†é¢‘	http://www.tudou.com/programs/view/AaqZ81jIt-k
